@@ -1,11 +1,11 @@
 {
-  "operationId": "TextAnalysisAuthoring_Import",
+  "operationId": "TextAuthoringProject_Import",
   "title": "SuccessfulImportProject",
   "parameters": {
     "Endpoint": "{Endpoint}",
     "Ocp-Apim-Subscription-Key": "{API key}",
     "Content-Type": "application/json",
-    "api-version": "2023-04-15-preview",
+    "api-version": "2025-05-15-preview",
     "projectName": "LoanAgreements",
     "body": {
       "projectFileVersion": "2022-05-01",

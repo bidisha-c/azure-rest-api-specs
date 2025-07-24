@@ -1,9 +1,11 @@
 {
+  "operationId": "AnalyzeConversations",
+  "title": "SuccessfulAnalyzeConversationsArbitrationDirectTarget",
   "parameters": {
     "Endpoint": "{Endpoint}",
     "Ocp-Apim-Subscription-Key": "{API key}",
     "Content-Type": "application/json",
-    "api-version": "2022-10-01-preview",
+    "api-version": "2025-05-15-preview",
     "body": {
       "kind": "Conversation",
       "analysisInput": {

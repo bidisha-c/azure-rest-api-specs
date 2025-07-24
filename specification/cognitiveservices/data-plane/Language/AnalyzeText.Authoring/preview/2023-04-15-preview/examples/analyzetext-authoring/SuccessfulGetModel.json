@@ -1,10 +1,10 @@
 {
-  "operationId": "TextAnalysisAuthoring_GetTrainedModel",
+  "operationId": "TextAuthoringTrainedModel_GetTrainedModel",
   "title": "SuccessfulGetModel",
   "parameters": {
     "Endpoint": "{Endpoint}",
     "Ocp-Apim-Subscription-Key": "{API key}",
-    "api-version": "2023-04-15-preview",
+    "api-version": "2025-05-15-preview",
     "projectName": "LoanAgreements",
     "trainedModelLabel": "model1"
   },

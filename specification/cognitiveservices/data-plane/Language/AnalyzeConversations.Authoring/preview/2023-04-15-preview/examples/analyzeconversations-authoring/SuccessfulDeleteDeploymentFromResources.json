@@ -1,10 +1,10 @@
 {
-  "operationId": "ConversationalAnalysisAuthoring_DeleteDeploymentFromResources",
+  "operationId": "ConversationAuthoringDeployment_DeleteDeploymentFromResources",
   "title": "Successful Delete Deployment From Resources",
   "parameters": {
     "Endpoint": "{Endpoint}",
     "Ocp-Apim-Subscription-Key": "{API key}",
-    "api-version": "2023-04-15-preview",
+    "api-version": "2025-05-15-preview",
     "projectName": "EmailApp",
     "deploymentName": "staging",
     "body": {
@@ -16,7 +16,7 @@
   "responses": {
     "202": {
       "headers": {
-        "operation-location": "{Endpoint}/language/authoring/analyze-conversations/projects/EmailApp/deployments/staging/delete-from-resources/jobs/61ebb7ef-a207-40d2-82b9-5285440ae579_637858368000000000?api-version=2023-04-15-preview"
+        "operation-location": "{Endpoint}/language/authoring/analyze-conversations/projects/EmailApp/deployments/staging/delete-from-resources/jobs/61ebb7ef-a207-40d2-82b9-5285440ae579_637858368000000000?api-version=2025-05-15-preview"
       }
     }
   }

@@ -1,11 +1,11 @@
 {
-  "operationId": "TextAnalysisAuthoring_CreateProject",
+  "operationId": "TextAuthoringProject_CreateProject",
   "title": "SuccessfulCreateProject",
   "parameters": {
     "Endpoint": "{Endpoint}",
     "Ocp-Apim-Subscription-Key": "{API key}",
     "Content-Type": "application/merge-patch+json",
-    "api-version": "2023-04-15-preview",
+    "api-version": "2025-05-15-preview",
     "projectName": "LoanAgreements",
     "body": {
       "projectName": "LoanAgreements",
@@ -23,6 +23,7 @@
         "createdDateTime": "2022-04-18T13:53:03Z",
         "lastModifiedDateTime": "2022-04-18T13:53:03Z",
         "projectKind": "CustomEntityRecognition",
+        "storageAccountResourceId": "/subscriptions/e54a2925-af7f-4b05-9ba1-2155c5fe8a8e/resourceGroups/gokulkarni-clu/providers/Microsoft.CognitiveServices/accounts/gokulk",
         "storageInputContainerName": "loanagreements",
         "projectName": "LoanAgreements",
         "multilingual": false,
@@ -38,6 +39,7 @@
         "lastTrainedDateTime": "2022-04-18T14:14:28Z",
         "lastDeployedDateTime": "2022-04-18T14:49:01Z",
         "projectKind": "CustomEntityRecognition",
+        "storageAccountResourceId": "/subscriptions/e54a2925-af7f-4b05-9ba1-2155c5fe8a8e/resourceGroups/gokulkarni-clu/providers/Microsoft.CognitiveServices/accounts/gokulk",
         "storageInputContainerName": "loanagreements",
         "projectName": "LoanAgreements",
         "multilingual": false,

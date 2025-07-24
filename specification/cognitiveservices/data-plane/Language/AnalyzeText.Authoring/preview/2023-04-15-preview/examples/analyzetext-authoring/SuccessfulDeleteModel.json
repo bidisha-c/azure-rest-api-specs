@@ -1,10 +1,10 @@
 {
-  "operationId": "TextAnalysisAuthoring_DeleteTrainedModel",
+  "operationId": "TextAuthoringTrainedModel_DeleteTrainedModel",
   "title": "SuccessfulDeleteModel",
   "parameters": {
     "Endpoint": "{Endpoint}",
     "Ocp-Apim-Subscription-Key": "{API key}",
-    "api-version": "2023-04-15-preview",
+    "api-version": "2025-05-15-preview",
     "projectName": "LoanAgreements",
     "trainedModelLabel": "model2"
   },

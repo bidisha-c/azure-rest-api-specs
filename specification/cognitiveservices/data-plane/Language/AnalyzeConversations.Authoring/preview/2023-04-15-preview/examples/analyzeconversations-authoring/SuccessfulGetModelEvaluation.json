@@ -1,10 +1,10 @@
 {
-  "operationId": "ConversationalAnalysisAuthoring_GetModelEvaluationResults",
+  "operationId": "ConversationAuthoringTrainedModel_GetModelEvaluationResults",
   "title": "Successful Get Model Evaluation",
   "parameters": {
     "Endpoint": "{Endpoint}",
     "Ocp-Apim-Subscription-Key": "{API key}",
-    "api-version": "2023-04-15-preview",
+    "api-version": "2025-05-15-preview",
     "projectName": "EmailApp",
     "trainedModelLabel": "model1",
     "stringIndexType": "Utf16CodeUnit",
@@ -279,7 +279,7 @@
             }
           }
         ],
-        "nextLink": "https://api.example.com/language/authoring/analyze-conversations/projects/EmailApp/models/model1/evaluation/result/?api-version=2023-04-15-preview&top=2147483637&skip=100&maxpagesize=100"
+        "nextLink": "https://api.example.com/language/authoring/analyze-conversations/projects/EmailApp/models/model1/evaluation/result/?api-version=2025-05-15-preview&top=2147483637&skip=100&maxpagesize=100"
       }
     }
   }

@@ -1,7 +1,9 @@
 {
+  "operationId": "AnalyzeConversationsJobStatus",
+  "title": "SuccessfulConversationPIIExclusionTaskStatusRequest",
   "parameters": {
     "Ocp-Apim-Subscription-Key": "{API key}",
-    "api-version": "2023-04-15-preview",
+    "api-version": "2025-05-15-preview",
     "Endpoint": "{Endpoint}",
     "jobId": "c0f2a446-05d9-48fc-ba8f-3ef4af8d0b18"
   },
@@ -22,7 +24,7 @@
           "total": 1,
           "items": [
             {
-              "kind": "ConversationalPIIResults",
+              "kind": "conversationalPIIResults",
               "taskName": "Conversation PII",
               "lastUpdateDateTime": "2022-01-25T15:01:03Z",
               "status": "succeeded",

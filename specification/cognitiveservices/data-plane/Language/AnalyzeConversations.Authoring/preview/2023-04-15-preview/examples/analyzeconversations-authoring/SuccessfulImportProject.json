@@ -1,10 +1,10 @@
 {
-  "operationId": "ConversationalAnalysisAuthoring_Import",
+  "operationId": "ConversationAuthoringProject_Import",
   "title": "Successful Import Project",
   "parameters": {
     "Endpoint": "{Endpoint}",
     "Ocp-Apim-Subscription-Key": "{API key}",
-    "api-version": "2023-04-15-preview",
+    "api-version": "2025-05-15-preview",
     "projectName": "EmailApp",
     "body": {
       "projectFileVersion": "2022-05-01",
@@ -23,18 +23,27 @@
         "projectKind": "Conversation",
         "intents": [
           {
-            "category": "Read"
+            "category": "Read",
+            "description": "The read intent",
+            "associatedEntities": [
+              {
+                "category": "Sender"
+              }
+            ]
           },
           {
-            "category": "Delete"
+            "category": "Delete",
+            "description": "The delete intent"
           }
         ],
         "entities": [
           {
-            "category": "Sender"
+            "category": "Sender",
+            "description": "The description of Sender"
           },
           {
             "category": "Number",
+            "description": "The description of Number",
             "regex": {
               "expressions": [
                 {
@@ -73,7 +82,7 @@
   "responses": {
     "202": {
       "headers": {
-        "operation-location": "{Endpoint}/language/authoring/analyze-conversations/projects/EmailApp/import/jobs/4d37982f-fded-4c2c-afe3-15953b5919b6_637858368000000000?api-version=2023-04-15-preview"
+        "operation-location": "{Endpoint}/language/authoring/analyze-conversations/projects/EmailApp/import/jobs/4d37982f-fded-4c2c-afe3-15953b5919b6_637858368000000000?api-version=2025-05-15-preview"
       }
     }
   }

@@ -1,10 +1,10 @@
 {
-  "operationId": "ConversationalAnalysisAuthoring_ListAssignedResourceDeployments",
+  "operationId": "ConversationAuthoringListAssignedResourceDeployments",
   "title": "Successful List Assigned Resource Deployments",
   "parameters": {
     "Endpoint": "{Endpoint}",
     "Ocp-Apim-Subscription-Key": "{API key}",
-    "api-version": "2023-04-15-preview"
+    "api-version": "2025-05-15-preview"
   },
   "responses": {
     "200": {

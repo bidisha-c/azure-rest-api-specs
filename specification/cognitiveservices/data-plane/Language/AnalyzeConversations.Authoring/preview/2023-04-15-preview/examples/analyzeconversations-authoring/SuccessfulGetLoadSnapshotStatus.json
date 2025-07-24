@@ -1,10 +1,10 @@
 {
-  "operationId": "ConversationalAnalysisAuthoring_GetLoadSnapshotStatus",
+  "operationId": "ConversationAuthoringTrainedModel_GetLoadSnapshotStatus",
   "title": "Successful Get Load Snapshot Status",
   "parameters": {
     "Endpoint": "{Endpoint}",
     "Ocp-Apim-Subscription-Key": "{API key}",
-    "api-version": "2023-04-15-preview",
+    "api-version": "2025-05-15-preview",
     "projectName": "EmailApp",
     "trainedModelLabel": "model1",
     "jobId": "8ccf2ffe-e758-4d04-a44a-31512918c7e8_637858368000000000"

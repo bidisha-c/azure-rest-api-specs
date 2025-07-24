@@ -1,49 +1,53 @@
 {
   "parameters": {
+    "Content-Type": "application/json",
     "Endpoint": "{Endpoint}",
     "Ocp-Apim-Subscription-Key": "{API key}",
-    "Content-Type": "application/json",
-    "api-version": "2022-10-01-preview",
-    "projectName": "proj1",
+    "api-version": "2025-05-15-preview",
     "body": {
       "description": "proj1 is a test project.",
-      "language": "en",
+      "multilingualResource": true,
       "settings": {
         "defaultAnswer": "No good match found for your question in the Knowledgebase."
       },
-      "multilingualResource": true
-    }
+      "language": "en",
+      "configureSemanticRanking": false
+    },
+    "projectName": "proj1"
   },
   "responses": {
     "200": {
-      "headers": {},
       "body": {
-        "projectName": "proj1",
         "description": "proj1 is a test project.",
-        "language": "en",
+        "createdDateTime": "2021-05-01T15:13:22Z",
+        "lastDeployedDateTime": "2021-05-01T15:13:22Z",
+        "lastModifiedDateTime": "2021-05-01T15:13:22Z",
+        "multilingualResource": true,
+        "projectName": "proj1",
         "settings": {
           "defaultAnswer": "No good match found for your question in the Knowledgebase."
         },
-        "multilingualResource": true,
-        "createdDateTime": "2021-05-01T15:13:22Z",
-        "lastModifiedDateTime": "2021-05-01T15:13:22Z",
-        "lastDeployedDateTime": "2021-05-01T15:13:22Z"
-      }
+        "language": "en",
+        "configureSemanticRanking": false
+      },
+      "headers": {}
     },
     "201": {
-      "headers": {},
       "body": {
-        "projectName": "proj1",
         "description": "proj1 is a test project.",
-        "language": "en",
+        "createdDateTime": "2021-05-01T15:13:22Z",
+        "lastDeployedDateTime": "2021-05-01T15:13:22Z",
+        "lastModifiedDateTime": "2021-05-01T15:13:22Z",
+        "multilingualResource": true,
+        "projectName": "proj1",
         "settings": {
           "defaultAnswer": "No good match found for your question in the Knowledgebase."
         },
-        "multilingualResource": true,
-        "createdDateTime": "2021-05-01T15:13:22Z",
-        "lastModifiedDateTime": "2021-05-01T15:13:22Z",
-        "lastDeployedDateTime": "2021-05-01T15:13:22Z"
-      }
+        "language": "en"
+      },
+      "headers": {}
     }
-  }
+  },
+  "operationId": "QuestionAnsweringProjects_CreateProject",
+  "title": "Successful query"
 }

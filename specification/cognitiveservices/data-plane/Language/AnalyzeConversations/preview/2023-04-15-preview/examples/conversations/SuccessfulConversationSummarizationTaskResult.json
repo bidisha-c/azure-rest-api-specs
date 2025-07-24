@@ -1,7 +1,9 @@
 {
+  "operationId": "AnalyzeConversationsJobStatus",
+  "title": "SuccessfulConversationSummarizationTaskResult",
   "parameters": {
     "Ocp-Apim-Subscription-Key": "{API key}",
-    "api-version": "2023-04-15-preview",
+    "api-version": "2025-05-15-preview",
     "Endpoint": "{Endpoint}",
     "jobId": "3e9e8518-492f-47f9-abd1-9a7468231086"
   },
@@ -22,7 +24,7 @@
           "total": 1,
           "items": [
             {
-              "kind": "ConversationalSummarizationResults",
+              "kind": "conversationalSummarizationResults",
               "lastUpdateDateTime": "2022-04-01T15:00:49Z",
               "taskName": "Conversation Summarization Task 1",
               "status": "succeeded",
@@ -63,7 +65,7 @@
                   }
                 ],
                 "errors": [],
-                "modelVersion": "2023-04-15-preview"
+                "modelVersion": "latest"
               }
             }
           ]
