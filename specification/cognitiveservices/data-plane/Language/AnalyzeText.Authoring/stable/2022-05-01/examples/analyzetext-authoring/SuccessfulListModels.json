@@ -1,10 +1,8 @@
 {
-  "operationId": "TextAnalysisAuthoringListTrainedModels",
-  "title": "SuccessfulListModels",
   "parameters": {
     "Endpoint": "{Endpoint}",
     "Ocp-Apim-Subscription-Key": "{API key}",
-    "api-version": "2025-05-15-preview",
+    "api-version": "2022-05-01",
     "projectName": "LoanAgreements"
   },
   "responses": {
@@ -18,8 +16,7 @@
             "lastTrainedDateTime": "2022-04-18T15:47:49Z",
             "lastTrainingDurationInSeconds": 186,
             "modelExpirationDate": "2022-10-28",
-            "modelTrainingConfigVersion": "2022-05-01",
-            "hasSnapshot": true
+            "modelTrainingConfigVersion": "2022-05-01"
           },
           {
             "label": "model2",
@@ -27,8 +24,7 @@
             "lastTrainedDateTime": "2022-04-18T17:25:22Z",
             "lastTrainingDurationInSeconds": 192,
             "modelExpirationDate": "2022-10-28",
-            "modelTrainingConfigVersion": "2022-05-01",
-            "hasSnapshot": true
+            "modelTrainingConfigVersion": "2022-05-01"
           }
         ],
         "nextLink": null
