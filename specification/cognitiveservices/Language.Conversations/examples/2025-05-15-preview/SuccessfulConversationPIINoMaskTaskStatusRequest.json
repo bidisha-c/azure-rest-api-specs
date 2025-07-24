@@ -3,11 +3,7 @@
   "title": "SuccessfulConversationPIINoMaskTaskStatusRequest",
   "parameters": {
     "Ocp-Apim-Subscription-Key": "{API key}",
-<<<<<<<< HEAD:specification/cognitiveservices/data-plane/Language/AnalyzeConversations/preview/2022-07-01-preview/examples/conversations/SuccessfulConversationPIITaskStatusRequest.json
-    "api-version": "2022-07-01-preview",
-========
     "api-version": "2025-05-15-preview",
->>>>>>>> main:specification/cognitiveservices/Language.Conversations/examples/2025-05-15-preview/SuccessfulConversationPIINoMaskTaskStatusRequest.json
     "Endpoint": "{Endpoint}",
     "jobId": "c0f2a446-05d9-48fc-ba8f-3ef4af8d0b18"
   },
